@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pricing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-top"></div>
+    <main>
+        <header>
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up for our 30-day trial. No credit card required.</p>
+        </header>
+
+        <section>
+            <div class="pageviews">
+                <p>
+                    <span id="pageview">100K</span>
+                    <span>PAGEVIEWS</span>
+                </p>
+
+                <div class="monthly">
+                    <h1>$<span id="cost">16</span>.00</h1>
+                    <p>/month</p>
+                </div>
+            </div>
+
+            <div id="slider">
+                <input type="range" name="range" id="range" class="range" min="0" max="4" value="2">
+            </div>
+
+            <div class="monthly2">
+                <h1>$<span id="cost2">16</span>.00</h1>
+                <p>/month</p>
+            </div>
+
+            <div class="billing">
+                <p>Monthly Billing</p>
+
+                <label class="switch">
+                    <span class="toggle"></span>
+                </label>
+                <p>
+                    <span>Yearly Billing</span>
+                    <span class="discount">25% <span class="hide">discount</span></span>
+                </p>
+            </div>
+
+            <footer>
+                <div class="checker">
+                    <div class="website check">
+                        <img src="images/icon-check.svg" alt="icon-check">
+                        <p>Unlimited websites</p>
+                    </div>
+    
+                    <div class="ownership check">
+                        <img src="images/icon-check.svg" alt="icon-check">
+                        <p>100% data ownership</p>
+                    </div>
+    
+                    <div class="email check">
+                        <img src="images/icon-check.svg" alt="icon-check">
+                        <p>Email reports</p>
+                    </div>
+                </div>
+
+                <a href="#" class="trial">Start my trial</a>
+            </footer>
+        </section>
+    </main>
+    <div class="bg-bottom"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
